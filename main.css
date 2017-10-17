@@ -1,0 +1,41 @@
+canvas {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-size: 12px;
+}
+
+.info {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	display: block;
+	margin: 100px auto 0;
+	width: 320px;
+	height: 130px;
+	padding: 1em;
+	background-color: #ededed;
+	box-sizing: border-box;
+}
+
+.bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 320px;
+	height: 200px;
+	background-image: url('citybg.gif');
+	z-index: -1;
+}
